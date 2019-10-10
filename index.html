@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Изображение 200 на 100</title>
+  <style>
+   div {
+    width: 200px; /* Ширина области */
+    height: 100px; /* Высота области */
+    margin: 0; /* Обнуляем отступы */
+    overflow: hidden; /* Прячем всё за пределами */
+   }
+   img { 
+	width: 100%; /* Ширина изображений */
+	height: 100%; /* Высота изображении */
+	object-fit: cover; /* Вписываем фотографию в область */
+   }
+  </style>
+ </head>
+ <body>
+  <div>
+   <img src="picture.jpg">
+  </div>
+ </body>
+</html>
